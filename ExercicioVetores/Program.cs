@@ -7,13 +7,13 @@ namespace ExercicioVetores
     {
         static void Main(string[] args)
         {
-            Cadastro[] vetor = new Cadastro[10]; // Vetor com 10 posições
+            Cadastro[] vetor = new Cadastro[10]; // cria um vetor chamado cadastro com 10 variaveis
             
-            Console.Write("Quantos quartos vão ser alugados: ");
-            int n = int.Parse(Console.ReadLine());
+            Console.Write("Quantos quartos vão ser alugados: ");// é mostrado no console uma mensagem
+            int n = int.Parse(Console.ReadLine()); // é criado uma variável int chamada m
             Console.WriteLine();
   
-            for (int i = 1; i <= n; i++)
+            for (int i = 1; i <= n; i++) // o int i vale 1, se int for menor ou igual a n faça e é adicionado+1 na variavel i
             {
                
                 Console.WriteLine($"Aluguel: {i}:");
